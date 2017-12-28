@@ -32,7 +32,7 @@ if [ "$1" == "" ]; then
     max_grade="0.0"
     labPoints="points$LabSD"
 
-    for ref_file in $((ls $ref_path/$task* && ls $ref_path/$bonus*) | xargs -n1 basename); do
+    for ref_file in $((ls $ref_path/$task* && ls $ref_path/$bonus*) 2> /dev/null | xargs -n1 basename); do
         test=$(echo $ref_file | cut -d'.' -f1)
         out_file="$test$out_ext"
 
