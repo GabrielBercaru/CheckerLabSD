@@ -19,17 +19,15 @@ fisier de iesire. Rezulta ca pentru a verifica daca un task este rezolvat
 corect, rezultatul va trebui scris in fisier.
 
     Exemple de cerinte care pot fi verificate de script:
-
-        -> Adaugarea elementelor intr-un resizable array / lista inlantuita /
+        ..* Adaugarea elementelor intr-un resizable array / lista inlantuita /
             alta structura de date
-        -> Pargurgeri pe grafuri / arbori
+        ..* Pargurgeri pe grafuri / arbori
 
     Exemple de cerinte care nu pot fi verificate la fel de usor:
-
-        -> Cerinte de tip "Implementati un constructor / metoda"
-        -> Cerinte de tip "Demonstrati functionarea clasei / metodei printr-un
+        ..* Cerinte de tip "Implementati un constructor / metoda"
+        ..* Cerinte de tip "Demonstrati functionarea clasei / metodei printr-un
             cod simplist"
-        -> Utilizare valgrind pentru verificare absenta memory leaks
+        ..* Utilizare valgrind pentru verificare absenta memory leaks
 
     Posibila solutie: pentru categoriile de cerinte care presupun
         setarea unor anumiti membri ai clasei, scheletul de laborator
