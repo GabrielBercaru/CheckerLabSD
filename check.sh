@@ -63,7 +63,7 @@ else
     max_grade="0.0"
     valid=1
     # Check given task
-    if [ "$1" == "T" ]; then
+    if [ "$1" == "-t" ]; then
         if [ $2 -gt $(ls $ref_path/$task* | wc -l) -o $2 -le 0 ]; then
             echo "No such $task $2"
             valid=0
@@ -79,7 +79,7 @@ else
                 echo "$task$2 .................... PASSED"
             fi
         fi
-    elif [ "$1" == "B" ]; then
+    elif [ "$1" == "-b" ]; then
         if [ $2 -gt $(ls $ref_path/$bonus* | wc -l) -o $2 -le 0 ]; then
             echo "No such $bonus $2"
             valid=0
