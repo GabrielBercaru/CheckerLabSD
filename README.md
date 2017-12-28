@@ -21,22 +21,15 @@ corect, rezultatul va trebui scris in fisier.
     Exemple de cerinte care pot fi verificate de script:
 
         -> Adaugarea elementelor intr-un resizable array / lista inlantuita /
-
             alta structura de date
-
         -> Pargurgeri pe grafuri / arbori
-
 
     Exemple de cerinte care nu pot fi verificate la fel de usor:
 
         -> Cerinte de tip "Implementati un constructor / metoda"
-
         -> Cerinte de tip "Demonstrati functionarea clasei / metodei printr-un
-
             cod simplist"
-
         -> Utilizare valgrind pentru verificare absenta memory leaks
-
 
     Posibila solutie: pentru categoriile de cerinte care presupun
         setarea unor anumiti membri ai clasei, scheletul de laborator
@@ -53,4 +46,5 @@ fiecare dintre cerintele laboratorului.
 * Atat punctajele pentru task-urile obligatorii cat si cele pentru bonusuri
 sunt pastrate de script in array-uri specifice fiecarui laborator. Array-urile
 sunt usor configurabile, urmand formatul
+
     _(punctaj_task1 .. punctaj_taskX punctaj_bonus1 .. punctaj_bonusY)_
