@@ -11,6 +11,8 @@ se ruleaza specificand flag-ul _-t_ urmat de numarul task-ului: <b>./check.sh -t
  * Pentru a verifica bonusul Y (cerinta optionala a laboratorului), script-ul
 se ruleaza specificand flag-ul _-b_ urmat de numarul bonusului: <b>./check.sh -b Y</b>
 
+---
+
 Mentiuni:
 
 * Script-ul se bazeaza pe faptul ca majoritatea cerintelor de laborator
@@ -19,11 +21,13 @@ fisier de iesire. Rezulta ca pentru a verifica daca un task este rezolvat
 corect, rezultatul va trebui scris in fisier.
 
     Exemple de cerinte care pot fi verificate de script:
+    
         * Adaugarea elementelor intr-un resizable array / lista inlantuita /
             alta structura de date
         * Pargurgeri pe grafuri / arbori
 
     Exemple de cerinte care nu pot fi verificate la fel de usor:
+    
         * Cerinte de tip "Implementati un constructor / metoda"
         * Cerinte de tip "Demonstrati functionarea clasei / metodei printr-un
             cod simplist"
